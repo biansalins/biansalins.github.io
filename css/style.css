@@ -1,0 +1,105 @@
+
+/*instructions for body properties example background or font for the whole HTML file; */
+body {
+	background-color: dimgray; 
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: helvetica, arial, sans-serif; 
+
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+h1 {color: black}
+
+h2 {font-weight: bold; 
+text-transform: uppercase;
+font-size: 16px;
+letter-spacing: 5px;
+border-top: 1px solid black;
+padding-top: 20px; 
+
+}
+/*instructions for image properties example width:200 px or height; */
+img {
+
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 5px dashed black;
+}
+
+/*instructions for responsive design*/
+
+@media screen and (max-width: 480px) 
+.main {
+	width:100%;
+}
+
+@media screen and (max-width: 767px) 
+.main {
+	width:100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+.main {
+	width:100%;
+}
+
+@media screen and (min-width: 1025px) 
+.main {
+	width:100%;
+}
+
+/*instructions for line height - if you want to colour only a single heading, you'd do h3 first-of-type or a single element*/
+
+p,
+ul,
+ol {
+line-height: 1.4; 
+list-style: none; 
+padding: 0; 
+}
+
+h3{
+color: black;
+}
+
+a {
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h3{
+	cursor: pointer;
+
+}
+a:hover,
+a:focus
+{color:black; 
+
+
+	text-decoration: underline;
+	}
+
+	.main {background: rgba(255,255,255,0.7);
+		width: 600px;
+		margin:0 auto;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+}
+
+
+h1 {font-family: 'Slabo 27px', serif;
+font-size: 50px;
+color: black;
+
+}
+
+/*to define margins between paras add p {margin:50px 0;} */
